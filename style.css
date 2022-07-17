@@ -84,6 +84,10 @@ form .name-details .field:last-child {
     transform: translateY(-50%);
     cursor: pointer;
 }
+.form form .field i.active::before {
+    content: "\f070";
+    color: #333;
+}
 .form form .button input {
     margin-top: 13px;
     height: 45px;
